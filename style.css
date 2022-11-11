@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+}
+.side-bar {
+    text-align: center;
+    height: 100vh;
+    width: 10%;
+    min-width: 150px;
+    border-right: 1px solid gray;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.menu-header {
+    border-bottom: 1px solid gray;
+    padding: 0 10px;
+}
+.menu-header-container {
+    padding: 10px 0;
+}
+.menu-item {
+    cursor: pointer;
+    margin: 10px 0;
+}
+a:hover {
+    color: red;
+}
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
